@@ -1,0 +1,145 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(125, 238, 241);
+    min-height: 100vh;
+}
+
+.homebody {
+    flex-grow: 1;
+}
+
+.header {
+    background-color: rgb(211, 139, 139);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2rem;
+    color: rgb(125, 238, 241);
+    font-style: italic;
+}
+
+.headerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: .8rem;
+}
+
+.tab {
+    border: none;
+    background-color: rgb(211, 139, 139);
+    font-size: large;
+}
+
+.homebody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homebodycontent {
+    background-color: rgb(184, 19, 19);
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.homepic {
+   width: 80%;
+   border-radius: 20%;
+   height: 100%;
+   flex-grow: 0;
+}
+
+.homebodytext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: black;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext {
+    color: blueviolet;
+}
+
+.menubody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: red;
+}
+
+.menubodycontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 60%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.menuitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: violet;
+    padding: .5rem;
+}
+
+.menuitem > img {
+    height: 6rem;
+    width: 6rem;
+}
+
+.menuitem > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menuitemtitle {
+    font-size: large;
+    font-weight: bold;
+}
+
+.aboutbody {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutbodycontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    background-color: yellow;
+}
+
+.aboutbodycontent > img {
+    mix-blend-mode: multiply;
+}
