@@ -1,1 +1,1 @@
-# restaurant
+Creating a restaurant website using Webpack.
