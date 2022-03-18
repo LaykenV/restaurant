@@ -29,7 +29,7 @@ let menuPage = function() {
     let item1 = document.createElement("div");
     item1.classList.add("menuitem");
     let item1pic = document.createElement("img");
-    item1pic.src = "../src/img/swamp-daddy.jpg";
+    item1pic.src = "./img/swamp-daddy.jpg";
     let item1title = document.createElement("p");
     item1title.classList.add("menuitemtitle");
     item1title.textContent = "Crawfish Platter";
@@ -39,7 +39,7 @@ let menuPage = function() {
     let item2 = document.createElement("div");
     item2.classList.add("menuitem");
     let item2pic = document.createElement("img");
-    item2pic.src = "../src/img/shrimpp.jpeg";
+    item2pic.src = "./img/shrimpp.jpeg";
     let item2title = document.createElement("p");
     item2title.classList.add("menuitemtitle");
     item2title.textContent = "Boiled Shrimp";
@@ -49,7 +49,7 @@ let menuPage = function() {
     let item3 = document.createElement("div");
     item3.classList.add("menuitem");
     let item3pic = document.createElement("img");
-    item3pic.src = "../src/img/pasta.jpeg";
+    item3pic.src = "./img/pasta.jpeg";
     let item3title = document.createElement("p");
     item3title.classList.add("menuitemtitle");
     item3title.textContent = "Pastalaya";
@@ -59,7 +59,7 @@ let menuPage = function() {
     let item4 = document.createElement("div");
     item4.classList.add("menuitem");
     let item4pic = document.createElement("img");
-    item4pic.src = "../src/img/ett.jpeg";
+    item4pic.src = "./img/ett.jpeg";
     let item4title = document.createElement("p");
     item4title.classList.add("menuitemtitle");
     item4title.textContent = "Crawfish Ettoufee";
@@ -69,7 +69,7 @@ let menuPage = function() {
     let item5 = document.createElement("div");
     item5.classList.add("menuitem");
     let item5pic = document.createElement("img");
-    item5pic.src = "../src/img/steak.jpeg";
+    item5pic.src = "./img/steak.jpeg";
     let item5title = document.createElement("p");
     item5title.classList.add("menuitemtitle");
     item5title.textContent = "Prime Ribeye";
@@ -79,7 +79,7 @@ let menuPage = function() {
     let item6 = document.createElement("div");
     item6.classList.add("menuitem");
     let item6pic = document.createElement("img");
-    item6pic.src = "../src/img/burger.jpeg";
+    item6pic.src = "./img/burger.jpeg";
     let item6title = document.createElement("p");
     item6title.classList.add("menuitemtitle");
     item6title.textContent = "House Burger";

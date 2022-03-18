@@ -33,7 +33,7 @@ let aboutPage = function() {
     address.textContent = "We're at 12 Monroe Hwy, Pineville, LA, USA";
     address.classList.add("aboutaddress");
     let pic = document.createElement("img");
-    pic.src = "../src/img/crawfish.jpeg";
+    pic.src = "./img/crawfish.jpeg";
     let sys = document.createElement("p");
     sys.textContent = "Hope to see you soon!";
     sys.classList.add("sys");

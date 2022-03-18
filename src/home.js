@@ -37,7 +37,7 @@ let homePage = function() {
     p2.textContent = "Made with passion since 2022";
     let bodyImg = document.createElement("img");
     bodyImg.classList.add("homepic");
-    bodyImg.src = "../src/img/swamp-daddy.jpg";
+    bodyImg.src = "./img/swamp-daddy.jpg";
     let p3 = document.createElement("p");
     p3.classList.add("homebodytext");
     p3.textContent = "Order online or visit us!";
