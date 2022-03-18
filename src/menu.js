@@ -39,7 +39,7 @@ let menuPage = function() {
     let item2 = document.createElement("div");
     item2.classList.add("menuitem");
     let item2pic = document.createElement("img");
-    item2pic.src = "../src/img/shrimp.jpeg";
+    item2pic.src = "../src/img/shrimpp.jpeg";
     let item2title = document.createElement("p");
     item2title.classList.add("menuitemtitle");
     item2title.textContent = "Boiled Shrimp";
